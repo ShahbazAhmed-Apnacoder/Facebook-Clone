@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: rgba(180, 178, 178, 0.274);
+    height: 100vh;
+}
+
+.mainContainer {
+
+    display: flex;
+}
+
+.dev1 {
+    /* background-color: purple; */
+    width: 55%;
+    height: 100vh;
+}
+
+.dev1>.img1 {
+    margin-top: 20%;
+    margin-left: 6%;
+    width: 350px;
+}
+
+
+.dev1>p {
+    font-size: 32px;
+    margin: 0 10%;
+    font-weight: normal;
+    padding-inline: 6px;
+    word-spacing: -2px;
+}
+
+.dev2 {
+    height: 100vh;
+    width: 45%;
+    /* background-color: yellowgreen; */
+}
+
+form {
+    box-shadow: 3px -2px 15px 5px #0000000a;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    border: none;
+    height: 340px;
+    width: 360px;
+    margin-top: 18%;
+    background-color: rgba(255, 255, 255, 0.877);
+
+}
+
+input {
+    box-sizing: border-box;
+    margin: 20px 0px 5px 16px;
+    width: 92%;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    /* border: none; */
+    border-radius: 6px;
+    padding: 16px 14px;
+    font-size: 16px;
+    -webkit-transition: 0.0s ease-in;
+    transition: 0.0s;
+    outline: none;
+}
+
+input#passwd {
+    margin-top: -8px;
+}
+
+input:focus {
+    border-color: #1877F2;
+    border: 2px solid #1877F2;
+}
+
+.btn {
+    margin-top: -8px;
+    margin-left: 17px;
+    border-radius: 6px;
+    padding: 16px 14px;
+    width: 92%;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #1877F2;
+}
+
+.optionRest {
+    padding: 18px;
+    margin-left: 25%;
+}
+
+.optionRest>a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+hr {
+    height: -50px;
+    width: 95%;
+    margin-left: 8px;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+button[class="New-u-b"] {
+    padding: 16px 14px;
+    border-radius: 6px;
+    color: #FFF9C5;
+    background-color: #42B72A;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-left: 5.5pc;
+
+
+}
+
+button[class="New-u-b"]:hover {
+    animation-name: effortor;
+    animation-duration: 2s;
+}
+
+/* Animation start */
+@keyframes effortor {
+    from {
+        background-color: #42B72A;
+    }
+
+    to {
+        background: #1877F2;
+    }
+}
